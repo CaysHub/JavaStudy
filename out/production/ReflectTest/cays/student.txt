@@ -1,0 +1,2 @@
+className = cays.Student
+methodName = show

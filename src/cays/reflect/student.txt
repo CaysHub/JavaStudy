@@ -1,0 +1,2 @@
+className = cays.reflect.Student
+methodName = show
