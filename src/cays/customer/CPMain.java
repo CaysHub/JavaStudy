@@ -1,5 +1,6 @@
 package cays.customer;
 
+import java.util.List;
 import java.util.concurrent.*;
 
 /**
@@ -9,6 +10,7 @@ import java.util.concurrent.*;
  * @create 2019-07-26 15:09
  **/
 public class CPMain {
+    private List<String> strings;
     public static void main(String[] args) {
         Buffer buffer = new Buffer();
         BlockingDeque<Runnable> workQueue = new LinkedBlockingDeque<>(3);
